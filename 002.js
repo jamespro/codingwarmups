@@ -14,3 +14,7 @@ function DNAtoRNA(dna) {
 }
 DNAtoRNA("GCAT"); //"GCAU"
 DNAtoRNA("GACCGCCGCC"); //"GACCGCCGCC"
+
+function DNAtoRNAAlternate(dna) {
+  return dna.replace(/T/g, 'U');
+}
