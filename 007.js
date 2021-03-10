@@ -7,11 +7,14 @@
 
 function stringy(size) {
     let result = ''
-    for (i = 0; i < size; i++) {
+    for (i = 1; i <= size; i++) {
         if (i % 2 == 0) {
+            result = result + '0'
+        } else {
             result = result + '1'
         }
     }
+    return result
 }
 
 
