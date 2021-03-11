@@ -18,6 +18,7 @@ function formatMoney(amount){
 
 formatMoney(39.99)
 formatMoney(3.1)
+formatMoney(3)
 
 //Test.assertEquals(formatMoney(39.99), '$39.99', 'That\'s not formatted the way we expected.');
 
