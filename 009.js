@@ -5,7 +5,15 @@
 
 
 function well(x) {
+    x.forEach(element => {
+        if element == 'bad'{
+            
 
+        } else {
+            return 'Publish!'
+        }
+        
+    });
 }
 
 
