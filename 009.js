@@ -5,16 +5,21 @@
 
 
 function well(x) {
+    let cnt = 0;
     x.forEach(element => {
-        if element == 'bad'{
-            
 
-        } else {
-            return 'Publish!'
-        }
-        
     });
-}
+ 
+    if (cnt <=2) {
+    
+        return 'I smell a series!'
+    } elseif (cnt > 2) {
+        return 'Publish!'
+    } else {
+        return 'Fail!'
+    }
+
+});
 
 
 // Test.describe("Example tests",_=>{
